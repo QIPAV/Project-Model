@@ -13,9 +13,10 @@
 \usepackage{tikz} 
 \usepackage{eso-pic}
 \usepackage{amsmath}
+\usepackage{wrapfig}
 \usepackage{hyperref}
 
-\author{Tomas Lyngroth \\ Aleksander Holthe \\ Vanja Katinka Halvorsen \\ Stian Fredriksen \\ Kent Kjeldaas \\ Katrine Sundal Haune}
+\author{Aleksander Holthe  \\ Katrine Sundal Haune \\ Kent Kjeldaas \\ Stian Fredriksen \\ Tomas Lyngroth \\ Vanja Katinka Halvorsen}
 
 \makeatletter
 \let\vapiqteam\@author
@@ -62,9 +63,8 @@
 \textbf{Version:}    &\textbf{Date:} 	 &\textbf{Comment:}    &\textbf{Done by:}   &\textbf{Approved by:}  \\
 
 0.0       & $10.01.17$       & Document created  & SF    & SF          \\ \rowcolor{gainsboro}
-0.1       & $00.00.00$       & Started writing  & TL    & SF          \\
-0.2       & $00.00.00$       & what was done  & Name    & Name          \\ \rowcolor{gainsboro}
-0.3       & $00.00.00$       & what was done  & Name    & Neme          \\
+0.1       & $10.01.17$       & Started writing  & TL    & SF          \\
+1.0       & $18.01.17$       & Version 1.0 completed  & TL    & KSH          \\ 
 \end{tabular}                                                                   
 \end{center}
 
@@ -76,14 +76,17 @@
 \begin{tabular}{ll}
 \rowcolor{cadetgrey}
     &   \\
-Variable Pitch Quadcopter   & VAPIQ \\\rowcolor{gainsboro}
-Tomas Lyngroth       & TL          \\ 
-Aleksander Holthe      & AH          \\\rowcolor{gainsboro}
+Aleksander Holthe      & AH     
+ \\\rowcolor{gainsboro}
+Katrine Sundal Haune  & KSH \\
+Kent Kjeldaas         & KK 
+ \\\rowcolor{gainsboro}
+Stian Fredriksen      & SF  \\
+Tomas Lyngroth       & TL   
+ \\\rowcolor{gainsboro}
 Vanja Katinka Halvorsen     & VKH   \\
-Stian Fredriksen      & SF          \\\rowcolor{gainsboro}
-Kent Kjeldaas       & KK            \\
-Katrine Sundal Haune    & KSH       \\\rowcolor{gainsboro}
-\end{tabular}                                                                   
+Variable Pitch Quadcopter   & VAPIQ
+\end{tabular}                                                             
 \end{center}
 
 \newpage
@@ -91,23 +94,21 @@ Katrine Sundal Haune    & KSH       \\\rowcolor{gainsboro}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-
+% ABSTRACT
+\subfile{sections/Abstract}
+\newpage
 
 
 % LIST OF STUFF
 \tableofcontents
 \newpage
 
-% ABSTRACT
-\subfile{sections/Abstract}
-\newpage
-
-\subfile{sections/ProjectModel}
-\newpage
-
 \subfile{sections/Scrum}
 \newpage
 
+
+\subfile{sections/ModifiedScrum}
+\newpage
 
 
 % CHAPTER
@@ -127,6 +128,5 @@ Katrine Sundal Haune    & KSH       \\\rowcolor{gainsboro}
 %References
 \subfile{sections/references}
 \newpage
-
 
 \end{document}
